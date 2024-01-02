@@ -1,7 +1,7 @@
 # Docs about this config: https://themes.gohugo.io/themes/hugo-coder/
 # Based on: https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md#complete-example
 
-baseurl = "https://kostola.github.io"
+baseurl = "https://www.alecosta.me"
 title = "Alessandro Costa"
 theme = "hugo-coder"
 languagecode = "en"
