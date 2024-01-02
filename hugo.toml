@@ -1,4 +1,42 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+# Docs about this config: https://themes.gohugo.io/themes/hugo-coder/
+# Based on: https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md#complete-example
+
+baseurl = "https://kostola.github.io"
+title = "Alessandro Costa"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Alessandro Costa"
+  info = "Software Engineer + Site Reliability Engineer"
+  description = "Alessandro Costa's personal website"
+  keywords = "blog,developer,personal"
+  gravatar = "kost.on.linux@gmail.com"
+
+  since = 2011
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/kostola/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/alecosta/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/kostola/"
